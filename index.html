@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ahan Hegde — Full Stack & ML Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav>
-  <div class="nav-logo">ahan.dev</div>
+  <a href="#top" class="nav-logo">ahan.dev</a>
   <div class="nav-links">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="#about">about</a>
+    <a href="#experience">experience</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
   </div>
   <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
     <span></span>
@@ -24,209 +24,138 @@
   </button>
 </nav>
 <div class="nav-mobile-menu" id="mobileMenu">
-  <a href="#about" class="mobile-link">About</a>
-  <a href="#experience" class="mobile-link">Experience</a>
-  <a href="#projects" class="mobile-link">Projects</a>
-  <a href="#contact" class="mobile-link">Contact</a>
+  <a href="#about" class="mobile-link">about</a>
+  <a href="#experience" class="mobile-link">experience</a>
+  <a href="#projects" class="mobile-link">projects</a>
+  <a href="#contact" class="mobile-link">contact</a>
 </div>
-<div id="hero">
-  <div class="hero-eyebrow">Available for Full-Stack roles</div>
-  <h1 class="hero-name">Ahan<br>Hegde</h1>
-  <div class="hero-typewriter" id="typewriter"><span class="cursor"></span></div>
-  <p class="hero-desc">Full-Stack & ML Engineer with 4 years building production systems — from real-time CV pipelines to LLM-powered backends and semantic search engines.</p>
-  <div class="hero-cta">
-    <a href="#projects" class="btn btn-primary">See my work</a>
-    <a href="mailto:ahansnash@gmail.com" class="btn btn-ghost">Get in touch</a>
-  </div>
-</div>
-<div class="divider"></div>
-<section id="about">
-  <div class="section-label">Background</div>
-  <h2 class="section-title">The human behind the commits</h2>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm a 25-year-old Full-Stack &amp; ML Engineer based in Bangalore. Over four years I've shipped real features at a London-based SaaS startup (Flixmedia), a semiconductor AI company (Rayvector / Lam Research), and an early-stage healthtech startup — always across the full stack.</p>
-      <p>I gravitate toward problems that sit at the seam between ML and systems.</p>
-      <p>Certified in Deep Learning (Andrew Ng / Stanford) and Mathematics for ML (Imperial College London).</p>
+<main id="top">
+  <section id="hero">
+    <p class="eyebrow">Available for full-stack roles</p>
+    <h1>Hi there, I'm Ahan.</h1>
+    <p class="hero-sub">I'm a full-stack &amp; ML engineer with 4 years building production systems — from real-time CV pipelines to LLM-powered backends and semantic search engines.</p>
+    <p class="hero-loc">Currently based in Bangalore, building things across the ML/systems seam.</p>
+    <div class="hero-links">
+      <a href="#projects">Latest work →</a>
     </div>
-    <div class="skills-block">
-      <h3>Core Stack</h3>
-      <div class="tag-group">
-        <span class="tag hl">Python</span>
-        <span class="tag hl">FastAPI</span>
-        <span class="tag hl">JavaScript</span>
-        <span class="tag hl">TypeScript</span>
-        <span class="tag hl">React</span>
-        <span class="tag hl">Node.js</span>
-        <span class="tag hl">PHP</span>
+  </section>
+  <hr>
+  <section id="about">
+    <h2>Background</h2>
+    <p>I'm a 25-year-old full-stack &amp; ML engineer. Over four years I've shipped real features at a London-based SaaS startup (Flixmedia), a semiconductor AI company (Rayvector / Lam Research), and an early-stage healthtech startup — always across the full stack.</p>
+    <p>I gravitate toward problems that sit at the seam between ML and systems.</p>
+    <p>Certified in Deep Learning (Andrew Ng / Stanford) and Mathematics for ML (Imperial College London).</p>
+    <div class="stack">
+      <div class="stack-row">
+        <span class="stack-label">core</span>
+        <span class="stack-items">Python, FastAPI, JavaScript, TypeScript, React, Node.js, PHP</span>
       </div>
-      <h3>ML / AI</h3>
-      <div class="tag-group">
-        <span class="tag">PyTorch</span>
-        <span class="tag">TensorFlow</span>
-        <span class="tag">OpenCV</span>
-        <span class="tag">FAISS</span>
-        <span class="tag">Transformers / BERT</span>
-        <span class="tag">LLM APIs</span>
+      <div class="stack-row">
+        <span class="stack-label">ml / ai</span>
+        <span class="stack-items">PyTorch, TensorFlow, OpenCV, FAISS, Transformers / BERT, LLM APIs</span>
       </div>
-      <h3>Infra & Tooling</h3>
-      <div class="tag-group">
-        <span class="tag">Docker</span>
-        <span class="tag">GitHub Actions</span>
-        <span class="tag">BSD Sockets</span>
-        <span class="tag">REST APIs</span>
-        <span class="tag">PostgreSQL</span>
-        <span class="tag">CI/CD</span>
+      <div class="stack-row">
+        <span class="stack-label">infra</span>
+        <span class="stack-items">Docker, GitHub Actions, BSD Sockets, REST APIs, PostgreSQL, CI/CD</span>
       </div>
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<section id="experience">
-  <div class="section-label">Career</div>
-  <h2 class="section-title">Where I've worked</h2>
-  <div class="exp-list">
-    <div class="exp-item">
-      <div class="exp-meta">
-        <div class="exp-company">Rayvector Tech<br>Bangalore</div>
+  </section>
+  <hr>
+  <section id="experience">
+    <h2>Where I've worked</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>ML &amp; Backend Engineer</h3>
+        <span class="entry-org">Rayvector Tech, Bangalore</span>
       </div>
-      <div>
-        <div class="exp-role">ML & Backend Engineer</div>
-        <div class="exp-desc">Built AI systems for semiconductor manufacturing at Lam Research USA. Shipped a RAG-based document bot (Mistral + FAISS), an OCR pipeline for serial number capture, a real-time camera focusing interface using OpenCV, and a BSD socket communication module for air-gapped IoT devices.</div>
-      </div>
+      <p>Built AI systems for semiconductor manufacturing at Lam Research USA. Shipped a RAG-based document bot (Mistral + FAISS), an OCR pipeline for serial number capture, a real-time camera focusing interface using OpenCV, and a BSD socket communication module for air-gapped IoT devices.</p>
     </div>
-    <div class="exp-item">
-      <div class="exp-meta">
-        <div class="exp-company">Flixmedia / Corvid<br>London (Remote)</div>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>ML Engineer</h3>
+        <span class="entry-org">Flixmedia / Corvid, London (Remote)</span>
       </div>
-      <div>
-        <div class="exp-role">ML Engineer</div>
-        <div class="exp-desc">One of 5 engineers on the AI team at Flixmedia. Built a video localisation pipeline (Whisper + M2M100 + Google TTS), an AI image curation service used by Samsung, LG, Intel, and a 10× faster metadata extraction pipeline. Full CI/CD with GitHub Actions.</div>
-      </div>
+      <p>One of 5 engineers on the AI team at Flixmedia. Built a video localisation pipeline (Whisper + M2M100 + Google TTS), an AI image curation service used by Samsung, LG, Intel, and a 10× faster metadata extraction pipeline. Full CI/CD with GitHub Actions.</p>
     </div>
-    <div class="exp-item">
-      <div class="exp-meta">
-        <div class="exp-company">ekadyo.in<br>India</div>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Lead Full Stack Developer</h3>
+        <span class="entry-org">ekadyo.in, India</span>
       </div>
-      <div>
-        <div class="exp-role">Lead Full Stack Developer</div>
-        <div class="exp-desc">Led full-stack development of a medical chatbot platform. Built symptom-checking chatbots (500 diseases), a PubMed semantic search engine over 1M+ articles using BERT embeddings, a diabetes risk chatbot for a hospital chain, and a pharma concept browser — all end-to-end, from UI to API to model integration.</div>
-      </div>
+      <p>Led full-stack development of a medical chatbot platform. Built symptom-checking chatbots (500 diseases), a PubMed semantic search engine over 1M+ articles using BERT embeddings, a diabetes risk chatbot for a hospital chain, and a pharma concept browser — all end-to-end, from UI to API to model integration.</p>
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<section id="projects">
-  <div class="section-label">Selected Work</div>
-  <h2 class="section-title">Things I've built</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-icon">💬</div>
-      <div class="project-title">normiechat</div>
-      <div class="project-desc">A full-stack chat application built from scratch. Live, deployed, and actually used by people.</div>
-      <div class="project-tags">
-        <span class="ptag">Full-Stack</span>
-        <span class="ptag">Real-time</span>
+  </section>
+  <hr>
+  <section id="projects">
+    <h2>Things I've built</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>normiechat</h3>
+        <span class="entry-org">Full-Stack · Real-time</span>
       </div>
-      <a href="https://normiechat.in" target="_blank" class="project-link">↗ normiechat.in</a>
+      <p>A full-stack chat application built from scratch. Live, deployed, and actually used by people.</p>
+      <a class="entry-link" href="https://normiechat.in" target="_blank">↗ normiechat.in</a>
     </div>
-    <div class="project-card">
-      <div class="project-icon">🔬</div>
-      <div class="project-title">RAG Bot for Semiconductor Docs</div>
-      <div class="project-desc">Custom document Q&A system. Mistral-powered response engine, FAISS vector indexing, FastAPI backend — built to actually work in a semiconductor fab environment.</div>
-      <div class="project-tags">
-        <span class="ptag">RAG</span>
-        <span class="ptag">Mistral</span>
-        <span class="ptag">FAISS</span>
-        <span class="ptag">FastAPI</span>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>RAG bot for semiconductor docs</h3>
+        <span class="entry-org">RAG · Mistral · FAISS · FastAPI</span>
       </div>
+      <p>Custom document Q&amp;A system. Mistral-powered response engine, FAISS vector indexing, FastAPI backend — built to actually work in a semiconductor fab environment.</p>
     </div>
-    <div class="project-card">
-      <div class="project-icon">🎥</div>
-      <div class="project-title">Video Localisation Pipeline</div>
-      <div class="project-desc">End-to-end pipeline to auto-localise product videos for European retailers. Stitched together Whisper, Meta's M2M100, and Google TTS into a clean backend microservice.</div>
-      <div class="project-tags">
-        <span class="ptag">Whisper</span>
-        <span class="ptag">M2M100</span>
-        <span class="ptag">TTS</span>
-        <span class="ptag">Python</span>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Video localisation pipeline</h3>
+        <span class="entry-org">Whisper · M2M100 · TTS · Python</span>
       </div>
+      <p>End-to-end pipeline to auto-localise product videos for European retailers. Stitched together Whisper, Meta's M2M100, and Google TTS into a clean backend microservice.</p>
     </div>
-    <div class="project-card">
-      <div class="project-icon">📷</div>
-      <div class="project-title">Real-time Camera Focus Interface</div>
-      <div class="project-desc">Live video analysis tool for adjusting TIS Camera focus rings during silicon wafer monitoring. OpenCV at the core, performance-critical sections rewritten in C++ to cut latency.</div>
-      <div class="project-tags">
-        <span class="ptag">OpenCV</span>
-        <span class="ptag">C++</span>
-        <span class="ptag">Real-time</span>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Real-time camera focus interface</h3>
+        <span class="entry-org">OpenCV · C++ · Real-time</span>
       </div>
+      <p>Live video analysis tool for adjusting TIS Camera focus rings during silicon wafer monitoring. OpenCV at the core, performance-critical sections rewritten in C++ to cut latency.</p>
     </div>
-    <div class="project-card">
-      <div class="project-icon">🧬</div>
-      <div class="project-title">PubMed Semantic Search Engine</div>
-      <div class="project-desc">Deep semantic search across 1M+ PubMed articles using BERT-based embeddings. Full stack: search UI, results interface, filtering, and the backend APIs powering it all.</div>
-      <div class="project-tags">
-        <span class="ptag">BERT</span>
-        <span class="ptag">Semantic Search</span>
-        <span class="ptag">Full-Stack</span>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>PubMed semantic search engine</h3>
+        <span class="entry-org">BERT · Semantic Search · Full-Stack</span>
       </div>
+      <p>Deep semantic search across 1M+ PubMed articles using BERT-based embeddings. Full stack: search UI, results interface, filtering, and the backend APIs powering it all.</p>
     </div>
-    <div class="project-card">
-      <div class="project-icon">🖼️</div>
-      <div class="project-title">AI Image Gallery Curation</div>
-      <div class="project-desc">Backend service that auto-selected best product images for brands like Intel, Samsung, LG, and Sony by removing dupes and ranking assets via similarity detection.</div>
-      <div class="project-tags">
-        <span class="ptag">Computer Vision</span>
-        <span class="ptag">Microservice</span>
-        <span class="ptag">Python</span>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>AI image gallery curation</h3>
+        <span class="entry-org">Computer Vision · Microservice · Python</span>
       </div>
+      <p>Backend service that auto-selected best product images for brands like Intel, Samsung, LG, and Sony by removing dupes and ranking assets via similarity detection.</p>
     </div>
-  </div>
-</section>
-<div class="divider"></div>
-<section id="contact">
-  <div class="section-label">Contact</div>
-  <h2 class="section-title">Let's talk</h2>
-  <div class="contact-inner">
+  </section>
+  <hr>
+  <section id="contact">
+    <h2>Let's talk</h2>
     <p>Open to full-stack engineering roles. I work best on teams that care about what's actually being built, not just the stack it's built on.</p>
     <div class="contact-links">
-      <a href="mailto:ahansnash@gmail.com" class="contact-link">ahansnash@gmail.com</a>
-      <a href="tel:+916361211545" class="contact-link">+91 63612 11545</a>
-      <a href="https://github.com/asceznyk" target="_blank" class="contact-link">GitHub</a>
-      <a href="https://leetcode.com/u/cloudycockroach" target="_blank" class="contact-link">LeetCode</a>
+      <a href="mailto:ahansnash@gmail.com">Email</a>
+      <a href="tel:+916361211545">Phone</a>
+      <a href="https://github.com/asceznyk" target="_blank">Github</a>
+      <a href="https://leetcode.com/u/cloudycockroach" target="_blank">LeetCode</a>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 <footer>
-  Built without a template. © 2025 Ahan Hegde.
+  Built without a template. © 2026 Ahan Hegde.
 </footer>
 <script>
-const phrases=["Python · FastAPI · React","RAG · FAISS · LLMs","OpenCV · PyTorch · Real-time systems","Full-Stack · ML · 4 years shipped"];
-let pi=0,ci=0,deleting=false;
-const el=document.getElementById('typewriter');
-function type(){
-  const phrase=phrases[pi];
-  if(!deleting){
-    ci++;
-    el.innerHTML=phrase.slice(0,ci)+'<span class="cursor"></span>';
-    if(ci===phrase.length){deleting=true;setTimeout(type,1800);return;}
-  }else{
-    ci--;
-    el.innerHTML=phrase.slice(0,ci)+'<span class="cursor"></span>';
-    if(ci===0){deleting=false;pi=(pi+1)%phrases.length;setTimeout(type,400);return;}
-  }
-  setTimeout(type,deleting?35:65);
-}
-type();
-const hamburger=document.getElementById('hamburger');
-const mobileMenu=document.getElementById('mobileMenu');
-hamburger.addEventListener('click',()=>{
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('open');
   mobileMenu.classList.toggle('open');
 });
-document.querySelectorAll('.mobile-link').forEach(link=>{
-  link.addEventListener('click',()=>{
+document.querySelectorAll('.mobile-link').forEach(link => {
+  link.addEventListener('click', () => {
     hamburger.classList.remove('open');
     mobileMenu.classList.remove('open');
   });
